@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UploadImageMultipart</string>
+    <string name="loading">loading</string>
+</resources>

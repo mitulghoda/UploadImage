@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_title_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Select Picture"
+        android:textColor="#000000"
+        android:textSize="17sp"
+
+       />
+
+    <View
+        android:id="@+id/view_title_sap"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_title_dialog"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+       />
+
+
+    <TextView
+        android:id="@+id/txt_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_title_sap"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:scrollHorizontally="true"
+        android:text="Take photo."
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/txt_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:scrollHorizontally="true"
+        android:text="Choose existing photo from gallary."
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>
+
+
